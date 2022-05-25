@@ -15,6 +15,8 @@
 
 对应三张表的sql文件已包含在demo中
 
+测试api地址：http://localhost:2001/order/create?userId=1&productId=1&count=10&money=100
+
 ## 问题
 
 当我在账户服务中加入一个除0异常，订单和库存表并不能正常回滚？
